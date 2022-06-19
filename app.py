@@ -27,4 +27,4 @@ def getCards():
     return retDict
 
 
-app.run(debug=True)
+app.run()
