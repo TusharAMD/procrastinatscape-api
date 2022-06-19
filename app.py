@@ -27,4 +27,4 @@ def getCards():
     return retDict
 
 
-app.run()
+app.run(port=int(os.environ.get("PORT", 5001)))
